@@ -1,0 +1,32 @@
+https://www.youtube.com/watch?v=aSxhWTEDJOs
+
+npm install ajv@latest ajv-keywords@latest
+
+
+Bootstrap
+npm install react-bootstrap bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+
+npm install mongodb
+npm install express nodemon mongoose
+
+username
+Foodie
+Password
+Foodie123
+
+
+Connect Import Db
+mongoimport --uri mongodb+srv://Foodie:Foodie123@cluster0.vwqlw.mongodb.net/foodiemern --collection food_items --jsonArray --file "D:\SelfStudy\MERN\GoFood\mernapp\src\DataFoodie\foodData2.json"
+
+mongoimport --uri mongodb+srv://Foodie:Foodie123@cluster0.vwqlw.mongodb.net/foodiemern --collection food_category --jsonArray --file "D:\SelfStudy\MERN\GoFood\mernapp\src\DataFoodie\foodCategory.json"
+
+
+
+
+
+Connect 
+mongodb+srv://Foodie:Foodie123@cluster0.vwqlw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
